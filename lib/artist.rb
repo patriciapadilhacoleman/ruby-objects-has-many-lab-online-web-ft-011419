@@ -29,8 +29,12 @@ class Artist
   
   def artist_name
     
-    @author
-    binding.pry
+    if @artist 
+      
+      artist.name
+      
+    end
+    
   
   end
   
