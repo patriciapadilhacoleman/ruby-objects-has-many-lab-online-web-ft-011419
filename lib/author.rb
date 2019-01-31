@@ -1,3 +1,5 @@
+require 'pry'
+
 class Author
   
   attr_accessor :author, :posts
@@ -22,7 +24,7 @@ class Author
     post = Post.new(title)
     @posts << post
     post.author = self
-    
+    binding.pry
   
   end
   
