@@ -16,5 +16,10 @@ class Post
     
   end
 
+  def some_post.author_name
+    
+   @author
+    
+  end
     
 end
