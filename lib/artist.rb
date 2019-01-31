@@ -28,4 +28,10 @@ class Artist
     
   end
   
+  def some_song.artist_name
+    
+    song.artist
+    
+  end
+  
 end
