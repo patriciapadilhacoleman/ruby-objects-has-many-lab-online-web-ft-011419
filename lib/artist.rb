@@ -27,16 +27,10 @@ class Artist
     
   end
   
-  def artist_name
-    
-    if @artist 
-      
-      return artist.name
-      
-    end
+  
     
   
-  end
+
   
   
   def self.song_count
