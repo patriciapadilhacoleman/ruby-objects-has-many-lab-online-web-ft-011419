@@ -26,6 +26,6 @@ class Author
   
   end
   
-  
+  def self.
   
 end
