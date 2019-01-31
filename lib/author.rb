@@ -2,12 +2,12 @@ require 'pry'
 
 class Author
   
-  attr_accessor :author, :posts
+  attr_accessor :name, :posts
   @@all = 0
   
   def initialize(name)
     
-    @author_name = name
+    @name = name
     @posts = []
     
   end
