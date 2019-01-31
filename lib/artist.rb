@@ -31,7 +31,7 @@ class Artist
     
     if @artist 
       
-      artist.name
+      return artist.name
       
     end
     
