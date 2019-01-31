@@ -28,9 +28,9 @@ class Author
   
   end
   
-  def some_post.artist_name
+  def some_post.author_name
     
-    song.artist
+    song.author
     
   end
   
