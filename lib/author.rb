@@ -1,6 +1,6 @@
 class Author
   
-  attr_accessor :autor_name, :posts
+  attr_accessor :author, :posts
   
   def initialize(name)
     
@@ -13,7 +13,7 @@ class Author
     
     post = Post.new(title)
     @posts << post
-    post.author_name = post
+    post.author = post
     
   end
     
@@ -21,7 +21,7 @@ class Author
     
     post = Post.new(title)
     @posts << post
-    post.author_name = self
+    post.author = self
     
   
   end
