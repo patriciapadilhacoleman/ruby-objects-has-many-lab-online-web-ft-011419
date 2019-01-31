@@ -22,14 +22,10 @@ class Author
     post = Post.new(title)
     @posts << post
     post.author_name = self
-    @@all << self
+    
   
   end
   
-  def self.all
-    
-    @@all.count
-    
-  end
+  
   
 end
