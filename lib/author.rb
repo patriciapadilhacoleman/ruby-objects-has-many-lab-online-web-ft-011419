@@ -28,6 +28,10 @@ class Author
   
   end
   
-  
+  def some_post.artist_name
+    
+    song.artist
+    
+  end
   
 end
