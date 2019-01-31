@@ -16,7 +16,7 @@ class Post
     
   end
 
-  def some_post.author_name
+  def author_name
     
    @author
     
