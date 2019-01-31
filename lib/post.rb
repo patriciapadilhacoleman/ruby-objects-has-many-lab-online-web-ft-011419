@@ -14,8 +14,12 @@ class Post
 
   def author_name
     
-    @author
-    binding.pry
+    if @author
+      
+      return author.name
+      
+    end
+    
   end
   
   def self.all
