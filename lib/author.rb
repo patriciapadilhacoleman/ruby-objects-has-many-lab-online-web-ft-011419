@@ -28,10 +28,6 @@ class Author
   
   end
   
-  def some_post.author_name
-    
-    song.author
-    
-  end
+  
   
 end
