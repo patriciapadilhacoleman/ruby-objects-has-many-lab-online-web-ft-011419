@@ -15,6 +15,7 @@ class Artist
     
     song = Song.new(name)
     song.artist = self
+    @son
     
   end
     
