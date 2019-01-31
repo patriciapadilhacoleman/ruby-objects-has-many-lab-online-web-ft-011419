@@ -27,6 +27,14 @@ class Artist
     
   end
   
+  def artist_name
+    
+    @author
+    binding.pry
+  
+  end
+  
+  
   def self.song_count
     
     @@all
